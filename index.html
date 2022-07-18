@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">  <!-- ligar o CSS com o HTML -->
+    <title>Exercicio 01 - JavaScript</title>
+    <script src="index.js"></script> <!-- ligar o JavaScript com o HTML -->
+
+
+</head>
+<body>
+    <h1></h1> <!-- H1 vai mostrar algum erro da pagina -->
+
+ <Form action="https://www.youtube.com.br"> <!-- quando clickar em "Cadastras" enviara para esse link -->
+
+    <div>
+        <input type="text" placeholder="Nome" id="nome" onkeyup="ocultarErro()"> <!-- campo de nome -->
+    </div>
+        
+    <div>
+        <input type="email" placeholder="Email" id="email" onkeyup="ocultarErro()"> <!-- campo de email -->
+    </div>
+       
+    <div>
+        <select id="cargo" onchange="ocultarErro()"> <!-- campo de escolha de curso -->
+            <option>cargos</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select>
+    </div>
+    
+    <!-- campo de area de texto -->
+    <textarea placeholder="mensagem" id="mensagem" onkeyup="ocultarErro()" ></textarea><br>
+
+    <!-- botão para eviar o formulario -->
+    <input type="submit" value="cadastrar" onclick="return validar()">   
+</fieldset>
+</Form>
+</body>
+</html>

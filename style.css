@@ -1,0 +1,110 @@
+    /*
+          - ANOTAÇÕES DE ALGUNS COMANDOS CSS -
+
+    width: 588px; => largura 
+    border: solid 1px #cccccc; => estilo de borda 
+    border-radius: 5px; => deixa a borda arredondada 
+    margin-bottom: 10px; => deixa uma margem do botao 
+    padding: 5px;  => tamanho em altura 
+    font: 14px sans-serif; => customizar font
+    cursor: pointer; => mudar tipo de cursor
+
+
+    margin-top: 2%;
+    margin-left: 36%; => tipos de distancia da margem 
+    margin-right: 36%;
+
+    color: #ffffff; => cor do princial
+    background-color: #000000; => cor de fundo
+    */
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font: 14px sans-serif; 
+}
+
+#cargo{
+    width: 600px;
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+    padding: 5px; 
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#nome{
+    width: 588px;
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+    
+}
+
+#email{
+    width: 588px; 
+    border: solid 1px #cccccc; 
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    padding: 5px; 
+
+}
+
+#mensagem{
+    width: 588px; 
+    border: solid 1px #cccccc; 
+    border-radius: 5px; 
+    padding: 5px; 
+    margin-bottom: 10px; 
+    resize: none; /* nao deixa a caixa de texto ficar muito grande*/
+    
+
+  
+}
+
+#cadastrar{
+    border: solid 1px #cccccc; 
+    border-radius: 5px; 
+    padding: 5px; 
+    background-color: #F5EE9E;
+    cursor: pointer;
+    
+
+   
+   
+}
+
+fieldset{
+    border: 0;    
+}
+
+body{
+    margin-top: 2%;
+    margin-left: 36%;
+    margin-right: 36%;
+    justify-content: center;
+}
+
+
+form{
+    width: 600px;
+    margin: 30px auto;
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #E9FFF9;
+}
+
+h1{
+    background-color: #000000;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    display: none;
+    width: 588px; 
+}
